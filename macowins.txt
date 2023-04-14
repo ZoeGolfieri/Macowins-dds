@@ -1,0 +1,47 @@
+Crear clase prenda
+	Variable del tipo de prenda
+	Variable Estado de la prenda
+Método para saber precio
+	Prenda.precio() + estado.modificacion(prenda)
+	Retornar precio
+
+Clase sacos
+	Variable precio con property
+Clase pantalon
+	Variable precio con property
+Clase camisa
+	Variable precio con property
+
+clase estado nuevo
+	Método modificacion(prenda)
+		Retornar 0
+clase estado promoción
+	Var valorDescuento
+	Método modificacion (prenda)
+		Retornar -valorDescuento
+clase estado liquidacion
+	Var valorDescuento
+	Método modificacion (prenda)
+		Retornar prenda.precio() * 0.5
+
+Crear clase venta
+	Lista artículos
+	Método precio final
+	Var fecha con property
+	Suma importes lista de artículos
+
+clase  venta para tarjeta heredar venta
+var coeficiente
+var cantidad de cuotas
+  metodo precio final que cambia al precio final de venta
+    retornar super() + coeficienteTarjeta * cantidadCuotas + 0.01 * super() 
+
+Clase artículos
+Var tipo de prenda
+Var cantidad
+Método importes
+Retornar precio tipo de prenda * cantidad
+
+Class ganancias de un día
+	Método ganancias(fechaRequerida)
+	Retornar suma de Filtrar ventas.fecha(fechaRequerida)
