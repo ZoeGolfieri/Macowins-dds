@@ -45,3 +45,4 @@ Retornar precio tipo de prenda * cantidad
 Class ganancias de un día
 	Método ganancias(fechaRequerida)
 	Retornar suma de Filtrar ventas.fecha(fechaRequerida)
+---
